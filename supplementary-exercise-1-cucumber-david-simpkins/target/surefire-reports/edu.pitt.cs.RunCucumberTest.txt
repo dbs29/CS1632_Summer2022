@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: edu.pitt.cs.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.976 sec <<< FAILURE!
+Attempt to return a cat that does not exist(Rent-A-Cat returning)  Time elapsed: 0.075 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "edu.pitt.cs.RentACat.returnCat(int)" because "this.r" is null
+	at edu.pitt.cs.StepDefinitions.iReturnCatNumber(StepDefinitions.java:52)
+	at ?.I return cat number 4(classpath:edu/pitt/cs/rent_a_cat_return_cats.feature:14)
+
