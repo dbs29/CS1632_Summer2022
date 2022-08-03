@@ -420,10 +420,10 @@ testing the solution implementation while developing your implementation.
    private static LogicType logicType = LogicType.BUGGY;
    ```
 
-Again, just like when testing the solution, BeanCounterLogicImpl.main(String[])
-in PlainJUnitTest.testMain() needs to be changed to
-BeanCounterLogicBuggy.main(String[]), , if you want to call testMain() against
-the buggy implementation.
+   Again, just like when testing the solution,
+BeanCounterLogicImpl.main(String[]) in PlainJUnitTest.testMain() needs to be
+changed to BeanCounterLogicBuggy.main(String[]), , if you want to call
+testMain() against the buggy implementation.
 
    After the changes, do Maven test:
 
