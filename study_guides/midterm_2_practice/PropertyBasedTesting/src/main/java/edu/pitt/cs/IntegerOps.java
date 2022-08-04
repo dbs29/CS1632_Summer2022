@@ -1,3 +1,5 @@
+package edu.pitt.cs;
+
 public class IntegerOps {
 	/**
 	 * Computes the sum of x and y.

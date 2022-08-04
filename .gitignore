@@ -10,4 +10,5 @@
 *.c~
 *.side~
 *.jpf~
+target/
 deliverables/3/.DS_Store

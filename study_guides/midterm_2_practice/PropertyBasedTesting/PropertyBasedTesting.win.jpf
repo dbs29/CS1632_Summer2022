@@ -1,7 +1,9 @@
-classpath = bin;lib/junit-4.12.jar;lib/hamcrest-all-1.3.jar
+classpath = target/classes;target/test-classes;lib/junit-4.12.jar;lib/hamcrest-all-1.3.jar
+sourcepath = src/main/java;src/test/java
 
 # Target class main method to run.  In this case, we are invoking the main method of DrunkCarnivalShooterImpl with the argument "test".
-target = JPFRunner
+target = edu.pitt.cs.TestRunner
+#target.args = trace
 
 # If set to true, enumerates all possible values returned by Random.nextInt.
 # If set to false, the original Random.nextInt is called to generate an actual random number.
